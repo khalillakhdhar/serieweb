@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <table align="center">
+            <tr><th colspan="2"><h2>Stage</h2></th></tr>
+            <tr><td>nom</td><td><input pattern="[A-Za-z 'éèç]{2,20}" type="text" required></td></tr>
+            <tr><td>prénom</td><td><input type="text" pattern="[A-Za-z 'éèç]{2,20}" required></td></tr>
+            <tr><td>Adresse</td><td><textarea required></textarea></td></tr>
+            <tr><td>date de naissance</td><td><input type="date" required></td></tr>
+            <tr><td>code postale</td><td><input type="text" required></td></tr>
+            <tr><td>Bac +?</td><td><input type="number" min="0" required></td></tr>
+            <tr><td>Redoublement</td><td><input type="radio" name="r">Oui<br><input type="radio" name="r">Non</td></tr>
+            <tr><td>Email</td><td><input type="email" required></td></tr>
+            <tr><td>Mot de passe</td><td><input type="password" required></td></tr>
+            <tr><td>Linkedin</td><td><input type="url" ></td></tr>
+            <tr><td>Type de stage</td><td><select><option>PFE</option><option>Embauche</option><option>été</option></select></td></tr>
+            <tr><td><input type="submit" value="Envoyer demande"></td></tr>
+
+
+        </table>
+    </form>
+</body>
+</html>
